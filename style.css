@@ -1,0 +1,209 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*-- Navbar --*/
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #171717;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-font {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 12px;
+}
+.navbar-font:hover {
+  background: #ddd;
+  color: #171717;
+}
+
+/*-- Home --*/
+
+.home {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+/*-- Login --*/
+
+.login-block {
+  height: 760px;
+}
+.login-wrapper {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  float: left;
+  width: 80%;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login {
+  margin-top: 100px;
+  float: left;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+.register {
+  float: right;
+  width: 50%;
+  height: 500px;
+  background-color: #171717;
+  color: #ffffff;
+  text-align: center;
+}
+.login button {
+  border-radius: 20px;
+  border: 1px solid #171717;
+  background-color: #171717;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+}
+.login button:hover {
+  background: #ddd;
+  color: #171717;
+  border: none;
+}
+.register button {
+  border-radius: 20px;
+  border: 1px solid #171717;
+  background-color: #171717;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+}
+form {
+  background-color: #ffffff;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+/*-- About --*/
+
+.about {
+  background-color: #171717;
+  height: 760px;
+  width: 100%;
+  float: left;
+}
+.about h1 {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 50px;
+}
+.about-details {
+  float: left;
+  width: 50%;
+  height: 30%;
+}
+.about-details h2 {
+  margin-top: 20px;
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.about-details p {
+  color: white;
+  width: 80%;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/*-- Contact --*/
+
+.contact {
+  float: left;
+  height: 760px;
+  width: 100%;
+}
+.contact h1 {
+  font-size: 50px;
+  padding-top: 80px;
+  text-align: center;
+}
+.contact-details {
+  margin-top: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+.contact-form {
+  background-color: #171717;
+  margin-top: 50px;
+  margin-left: 10%;
+  float: left;
+  width: 80%;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-form form {
+  width: 80%;
+  margin-top: 50px;
+  background-color: #171717;
+  padding: 0 115px;
+  height: 300px;
+  text-align: center;
+}
+.contact-form input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 50%;
+  float: right;
+}
+.contact-form button {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #171717;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  border: none;
+
+  margin-top: 500px;
+}
+
+/*-- Footer --*/
+
+.footer {
+  background-color: #171717;
+  height: 120px;
+  width: 100%;
+  float: left;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 32px;
+}
